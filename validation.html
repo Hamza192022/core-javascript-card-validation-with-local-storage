@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="./validation_style.css"> -->
+    <link rel="stylesheet" href="./validation.css">
+    <title>Card Validation</title>
+</head>
+<body>
+
+<div id="main_div">
+
+
+    <div id="uper_div">
+        <form action="" id="form">
+            <div>
+                <span>Name:</span><input type="text" placeholder="Enter car name" id="name">
+            </div>
+            <div>
+                <span>Brand:</span><input type="text" placeholder="Enter car brand" id="brand">
+            </div>
+            <div>
+                <span>Color:</span><input type="text" placeholder="Enter car color" id="color">
+            </div>
+            <div>
+                <span>Model:</span><input type="number" placeholder="Enter car model" id="model">
+            </div>
+            <button  type="button" id="submitbtn" >Submit</button>
+            <!-- <span> <button type="reset" id="addmorebtn">Add more</button></span> -->
+            <span> <button type="reset" id="addmorebtn">Reset</button></span>
+            <!-- <table id="cartable"><tr>
+                <th>name</th>
+                <th>brandname</th>
+                <th>color</th>
+                <th>model</th>
+            </tr>
+            </table> -->
+        </form>
+        <span> <button  type="button" id="savebtn">Save All</button></span>
+    </div>
+
+
+    <div id="lower_div">
+            <table id="cartable">
+                <tr>
+                    <th>Items</th>
+                    <th>Amount</th>
+                    <th>Date</th>
+                    <th>Type</th>
+                </tr>
+            </table>
+
+    </div>
+
+
+    
+    <!-- <table id="cartable"><tr>
+        <th>Items</th>
+        <th>Amount</th>
+        <th>Date</th>
+        <th>Type</th>
+    </tr>
+    </table> -->
+
+</div>
+
+<script src="./validation.js"></script>
+</body>
+</html>

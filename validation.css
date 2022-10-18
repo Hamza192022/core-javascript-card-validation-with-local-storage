@@ -1,0 +1,58 @@
+form{
+    display: block;
+    height: 400px;
+    width: 300px;
+    margin: auto;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: purple;
+}
+
+#cartable{
+    /* border: 1px solid black; */
+    /* border-color: ; */
+    border-radius: 20px;
+    width: 400px;
+    color: black;
+    text-align: center;
+    
+}
+#main_div{
+    background-color: gray;
+    display: flex;
+    padding: 50px;
+
+}
+/* #main_div:hover{
+    background-color: gray;
+} */
+#lower_div{
+margin-top: 100px;
+margin-left: 200px;
+background-color: whitesmoke;
+/* width: 400px; */
+}
+
+input{
+    margin: 10px;
+    border-radius: 5px;
+    border-color: black;
+    /* height: 50px;
+    width: 100px; */
+}
+
+button{
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+th{
+    border: 1px solid black;
+}
+#savebtn{
+    margin-left: 280px;
+    border-radius: 10px ;
+}
+#savebtn:hover{
+    background-color: black;
+    color: white;
+}
